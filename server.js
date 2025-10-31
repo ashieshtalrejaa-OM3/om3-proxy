@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const app = express();
 app.use(express.json());
 
-const GEMINI_KEY = "AIzaSyBlaRIKyzCO6ki47bVZ4r0CiAO9TmyJTnE"; // ← YAHAN NAYA KEY DAALO
+const GEMINI_KEY = "AIzaSyASt9E5Gg0qcCZRT25ALgP0aPpyQxiknMI"; // ← YAHAN NAYA KEY DAALO
 
 app.post('/', async (req, res) => {
     const { prompt } = req.body;
